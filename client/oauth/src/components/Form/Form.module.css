@@ -1,0 +1,155 @@
+.container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.formContainer {
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	width: 320px;
+	padding: 60px 40px 60px 40px;
+	border-radius: 20px;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.paragraphContainer {
+	display: block;
+	height: 25px;
+	overflow: hidden;
+}
+
+.paragraphContainerButton {
+	display: block;
+	height: 20px;
+	overflow: hidden;
+}
+
+.headlineContainer {
+	display: block;
+	height: 48px;
+	overflow: hidden;
+}
+
+.headerHeadline {
+	display: flex;
+}
+
+.header p {
+	display: block;
+	height: 25px;
+	font-weight: 500;
+	color: #adb6cf;
+}
+
+.header a,
+.footer a {
+	font-weight: 600;
+	color: #397ef6;
+	text-decoration: none;
+}
+
+.form {
+	padding: 30px 0 30px 0;
+}
+
+.form label {
+	color: #4d5058;
+	font-weight: 500;
+}
+
+.input {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	border: solid hsla(224, 26%, 75%, 0.199) 2px;
+	border-radius: 5px;
+}
+
+.input input {
+	font-family: 'Poppins', sans-serif;
+	color: #4d5058;
+	width: calc(100% - 20px);
+	border: none;
+}
+
+.input svg {
+	width: 25px;
+	height: 25px;
+	padding-left: 5px;
+	color: #adb6cf;
+}
+
+.error {
+	display: block;
+	margin-bottom: 20px;
+	font-size: 13px;
+	color: #fc3f3f;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 49px;
+	margin-bottom: 10px;
+	background-color: #397ef6;
+	border: none;
+	border-radius: 5px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	color: #fff;
+	cursor: pointer;
+}
+
+.google {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	border: solid hsla(224, 26%, 75%, 0.199) 2px;
+	border-radius: 5px;
+	color: #4d5058;
+}
+
+.google svg {
+	width: 30px;
+	height: 20px;
+}
+
+.footer p {
+	opacity: .7;
+	font-size: 10px;
+}
+
+input:focus {
+	outline: none;
+}
+
+::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	font-family: 'Poppins', sans-serif;
+	color: #adb6cf;
+}
+::-moz-placeholder {
+	/* Firefox 19+ */
+	font-family: 'Poppins', sans-serif;
+	color: #adb6cf;
+}
+:-ms-input-placeholder {
+	/* IE 10+ */
+	font-family: 'Poppins', sans-serif;
+	color: #adb6cf;
+}
+:-moz-placeholder {
+	/* Firefox 18- */
+	font-family: 'Poppins', sans-serif;
+	color: #adb6cf;
+}
